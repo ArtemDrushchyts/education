@@ -1,0 +1,30 @@
+body {
+	background-image: url(http://www.dailyecho.co.uk/resources/images/2751869/);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+ul {
+	margin: 80px 0 0 300px;
+}
+li {
+	list-style-type: none;
+	margin: 20px;
+
+}
+a {
+	text-decoration: none;
+	width: 280px;
+	height: 45px;
+	font-size: 30px;
+	font-family: 'Risque', cursive;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-family: 'Indie Flower', cursive;
+}
+button {
+	width: 280px;
+	height: 150px;
+	border-radius: 20px;
+	background-color: #f2e01d;
+	border-collapse: 3px;
+}

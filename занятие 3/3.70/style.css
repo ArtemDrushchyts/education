@@ -1,0 +1,23 @@
+h1{
+	border: 3px dashed red;
+}
+#paragraph1 {
+	border: 1px solid green;
+	width: 35%;
+}
+#paragraph1 p span {
+	text-decoration: underline;
+}
+#paragraph2 {
+	border-top: 1px dotted;
+	border-right: 3px double red;
+	border-bottom: 3px solid green;
+	border-left: 1px solid blue;
+}
+
+#paragraph2 ul {
+	list-style-type: square;
+}
+#paragraph3 p {
+	border: 1px solid green;
+}
