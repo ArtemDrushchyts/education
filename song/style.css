@@ -1,0 +1,27 @@
+body {
+    margin:0;
+    background: lightblue;
+  }
+.song {
+	margin: 10px auto;
+	max-width: calc(100% - 400px);
+	min-width: 400px;
+	text-align: center;
+	background: white url(img.jpg) repeat-y right;
+	border-radius: 20px;
+
+}
+.song1 {
+	background:  url(img2.jpg) repeat-y left;
+	margin: 0;
+	width: 100%;
+	border-radius: 20px;
+	
+}
+.song2 {
+	font-family: 'Caveat', cursive;
+	font-size: 22px;
+}
+.song3 {
+	font-family: 'Indie Flower', cursive;
+}
