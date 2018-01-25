@@ -1,18 +1,25 @@
 h1{
 	border: 3px dashed red;
+	padding: 5px;
 }
 #paragraph1 {
 	border: 1px solid green;
-	width: 35%;
+	width: 
+	padding: 5px 10px;
+	background: url(SG1998.jpg) no-repeat center;
 }
 #paragraph1 p span {
 	text-decoration: underline;
+}
+
 }
 #paragraph2 {
 	border-top: 1px dotted;
 	border-right: 3px double red;
 	border-bottom: 3px solid green;
 	border-left: 1px solid blue;
+	margin-top: 5px;
+	background: url(skrip.gif);
 }
 
 #paragraph2 ul {

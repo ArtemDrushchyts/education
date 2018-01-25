@@ -1,0 +1,44 @@
+.gorverh {
+	background-image: url(img/ramg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	
+}
+.gorniz {
+	background-image: url(img/ramg.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.vertleft {
+	background-image: url(img/ramv.png);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.vertright {
+	background-image: url(img/ramv.png);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.ram1 {
+	background-image: url(img/ram1.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.ram2 {
+	background-image: url(img/ram2.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.ram3 {
+	background-image: url(img/ram3.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+.ram4 {
+	background-image: url(img/ram4.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.content {
+	padding: 50px;
+}
