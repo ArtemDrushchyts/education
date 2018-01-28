@@ -1,0 +1,69 @@
+
+.t {
+	display: table;
+	height: auto;
+	width: auto;
+}
+.r {
+	display: table-row;
+	height: 100px;
+	width: 100px;
+}
+.t-1 {
+	display: table-cell;
+	background-image: url(img/ram1.png);
+	background-repeat:  no-repeat;
+	background-position:  top left;
+	height: 100px;
+	width: 100px;
+}
+.t-2 {
+	display: table-cell;
+	background-image: url(img/ramg.png);
+	background-repeat: repeat-x;
+	background-position:  top;
+}
+.t-3 {
+	display: table-cell;
+	background-image: url(img/ram2.png);
+	background-repeat:  no-repeat;
+	background-position:  top right;
+	height: 100px;
+	width: 100px;
+}
+.t-4 {
+	display: table-cell;
+	background-image: url(img/ramv.png);
+	background-repeat: repeat-y;
+	background-position:  left;
+}
+.t-5 {
+}
+.t-6 {
+	display: table-cell;
+	background-image: url(img/ramv.png);
+	background-repeat: repeat-y;
+	background-position:  right;
+}
+.t-7 {
+	display: table-cell;
+	background-image: url(img/ram3.png);
+	background-repeat:  no-repeat;
+	background-position:  bottom left;
+	height: 100px;
+	width: 100px;
+}
+.t-8 {
+	display: table-cell;
+	background-image: url(img/ramg.png);
+	background-repeat: repeat-x;
+	background-position:  bottom;
+}
+.t-9 {
+	display: table-cell;
+	background-image: url(img/ram4.png);
+	background-repeat:  no-repeat;
+	background-position:  bottom right;
+	height: 100px;
+	width: 100px;
+}

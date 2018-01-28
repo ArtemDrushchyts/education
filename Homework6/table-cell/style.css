@@ -1,0 +1,17 @@
+
+.dt {
+	display: table;
+	height: 100px;
+}
+.dt-c {
+	display: table-cell;
+	vertical-align: bottom;
+}
+span {
+	height: 100px;
+}
+.dt-c2 {
+	display: table-cell;
+	vertical-align: middle;
+	background: lightblue;
+}

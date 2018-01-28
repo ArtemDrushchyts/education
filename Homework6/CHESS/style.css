@@ -1,0 +1,17 @@
+
+.zagol {
+	margin: 20px 0;
+	font-size: 24px;
+	font-weight: bold;
+}
+.birthday {
+	color: green;
+}
+.wc {
+	color: red;
+	font-weight: bold;
+}
+.text {
+	font-style: italic;
+	color: blue;
+}
