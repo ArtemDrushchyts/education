@@ -1,0 +1,8 @@
+
+.cl {
+	clear: both;
+}
+.main {
+	background-image: linear-gradient(to right, yellow 0%, yellow 15%, pink 15%, pink 40%, cyan 40%, cyan 80%, lightgreen 80%, lightgreen 100%);	
+}
+

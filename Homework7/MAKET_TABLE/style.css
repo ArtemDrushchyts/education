@@ -1,0 +1,38 @@
+table {
+	border-collapse: collapse;
+}
+.main {
+	width: 60vw;
+}
+.big {
+	text-align: center;
+	color: blue;
+	background-color: #ADD8E6;
+	padding: 10px;
+}
+.footer {
+	text-align: center;
+	background-color: #ADD8E6;
+	color: blue;
+	padding: 20px;
+}
+.bold {
+	padding-left: 20px;
+	font-weight: bold;
+}
+.saidbar {
+	background-color: #F0E68C;
+	width: 180px;
+}
+.foot {
+	text-align: center;
+	font-weight: bold;
+}
+.content {
+	padding-left: 15px;
+	background: url(img/bol.gif) repeat-y top right;
+}
+img {
+	float: left;
+	margin-right: 15px;
+}
