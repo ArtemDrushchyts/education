@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>LINKS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <!-- через display: inline и span у последнего элементы списка -->
+   <div class="one">
+       <ul>
+           <li><a href="https://yandex.by/">первая ссылка</a></li>
+           <li><a href="https://yandex.by/">вторая ссылка</a></li>
+           <li><a href="https://yandex.by/">третья ссылка</a></li>
+           <li><a href="https://yandex.by/">четвертая ссылка</a></li>
+           <li><span><a href="https://yandex.by/">пятая ссылка</a></span></li>
+       </ul>
+   </div>
+       <!--  ссылки в строку и отмену border через псевдокласс :nth-child(5) -->
+   <div class="two">
+       <a href="https://yandex.by/">первая ссылка</a>
+       <a href="https://yandex.by/">вторая ссылка</a>
+       <a href="https://yandex.by/">третья ссылка</a>
+       <a href="https://yandex.by/">четвертая ссылка</a>
+       <a href="https://yandex.by/">пятая ссылка</a>
+   </div>
+        <!-- через display: table и отмену border через псевдокласс :last-child -->
+   <div class="three">
+       <ul>
+           <li><a href="https://yandex.by/">первая ссылка</a></li>
+           <li><a href="https://yandex.by/">вторая ссылка</a></li>
+           <li><a href="https://yandex.by/">третья ссылка</a></li>
+           <li><a href="https://yandex.by/">четвертая ссылка</a></li>
+           <li><a href="https://yandex.by/">пятая ссылка</a></li>
+       </ul>
+   </div>
+        <!-- через float задав четным :nth-child(even) -->
+   <div class="four">
+       <ul>
+           <li><a href="https://yandex.by/">первая ссылка</a></li>
+           <li><a href="https://yandex.by/">вторая ссылка</a></li>
+           <li><a href="https://yandex.by/">третья ссылка</a></li>
+           <li><a href="https://yandex.by/">четвертая ссылка</a></li>
+           <li><a href="https://yandex.by/">пятая ссылка</a></li>
+       </ul>
+   </div>
+        <!-- обычная таблица с отменой border через :last-of-type -->
+   <div class="five">
+       <table>
+          <tr>
+            <td><a href="https://www.google.by/">первая ссылка</a></td>
+            <td><a href="https://yandex.by/">вторая ссылка</a></td>
+            <td><a href="https://yandex.by/">третья ссылка</a></td>
+            <td><a href="https://yandex.by/">четвертая ссылка</a></td>
+            <td><a href="https://yandex.by/">пятая ссылка</a></td>
+           </tr>
+       </table>
+   </div>
+</body>
+</html>

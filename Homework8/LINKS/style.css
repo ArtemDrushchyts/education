@@ -1,0 +1,72 @@
+.one ul li {
+	display: inline;
+}
+ul {
+	padding-left: 0;
+}
+
+.one a {
+	color: green;
+	border-right: 3px solid red;
+	padding: 5px 10px;
+}
+.one span a {
+	border-right: none;
+}
+
+.two a {
+	color: green;
+	border-right: 3px solid red;
+	padding: 5px 10px;
+}
+.two a:nth-child(5) {
+	border-right: none;
+}
+.three ul {
+	display: table;
+}
+.three ul li {
+	display: table-cell;
+	border-right: 3px solid red;
+	padding: 5px 10px;
+}
+.three ul li:last-child {
+	border-right: none;
+}
+.three ul li a {
+	color: green;
+}
+.three ul li a:hover {
+	color: red;
+}
+.four ul li {
+	float: left;
+	padding: 5px 10px;
+	list-style-type: none;
+} 
+.four ul li:nth-child(even) {
+	border-right: 3px solid red;
+	border-left: 3px solid red;
+}
+.four ul li a {
+	color: green;
+}
+.four ul li a:hover {
+	color: red;
+}
+.five {
+	clear: both;
+}
+.five td {
+	padding: 5px 10px;
+	border-right: 3px solid red;
+}
+.five a {
+	color: green;
+}
+.five tr>td:last-of-type {
+	border-right: none;
+}
+a:hover {
+	color: red;
+}
