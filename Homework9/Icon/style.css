@@ -1,0 +1,23 @@
+
+.zagol {
+	margin: 20px 0;
+	font-size: 24px;
+	font-weight: bold;
+}
+.birthday {
+	color: green;
+}
+.wc {
+	color: red;
+	font-weight: bold;
+}
+.text {
+	font-style: italic;
+	color: blue;
+}
+.asd {
+	text-decoration: none;
+}
+.asd::before {
+	content: url("img/extref.png");
+}
