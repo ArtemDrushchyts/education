@@ -1,5 +1,9 @@
+body {
+	margin: 0;
+}
 .main {
-	width: 50vw;
+	width: 100vw;
+	overflow: hidden;
 }
 .header {
 	background-color:  #ADD8E6;
@@ -25,6 +29,8 @@
 	padding-bottom: 20px;
 	margin-bottom: 0;
 	height: 100%;
+	margin-bottom: -10000px;
+	padding-bottom: 10000px;
 }
 .foot {
 	text-align: center;
@@ -37,12 +43,14 @@ img {
 	margin-right: 15px;
 }
 .footer {
+	overflow: hidden;
 	clear: left;
 	height: 45px;
 	line-height: 45px;
 	background-color:  #ADD8E6;
 	text-align: center;
 	margin-top: 0;
+
 }
 .logo {
 	text-transform: uppercase;
@@ -92,4 +100,10 @@ img {
 			height: 55px;
 			line-height: 24px;
 		}
+}
+
+@media (max-width: 500px) {
+	.header {
+		width: 100vw;
+	}
 }
