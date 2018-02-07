@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+.fons {
+	background-color:  #ADD8E6;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+}
+.saidb {
+	background-color: #F0E68C;
+}
+.bold {
+	margin-left: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.foot {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+img {
+	float: left;
+	margin-right: 10px;s
+}
+
+.logo {
+	background-color: blues;
+	text-align: center;
+	text-transform: uppercase;
+	color: blue;
+}
+.content {
+	background: url(img/bol.gif) repeat-y top right;
+}

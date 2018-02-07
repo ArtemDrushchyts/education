@@ -1,0 +1,17 @@
+body	{
+	background-color: lightblue;
+}
+.little {
+	margin: 10px;
+	background-image: linear-gradient(to right, #C3E1EB 0% , white 15%, white 15%, white 85%, #C3E1EB 100%);
+	border-radius: 15px;
+	text-align: center;
+	height: 150px;
+}
+.big {
+	margin: 10px;
+	background-image: linear-gradient(to right, #C3E1EB 0% , white 15%, white 15%, white 85%, #C3E1EB 100%);
+	border-radius: 15px;
+	text-align: center;
+	height: 700px;
+}
