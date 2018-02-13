@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+}
+.main {
+	width: 100vw;
+	overflow: hidden;
+}
+.header {
+	background-color:  #ADD8E6;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+}
+.content {
+	background-image: linear-gradient(to right, #F0E68C 0%, #F0E68C 180px, white 180px, white 100vw);
+}
+.saidbar {
+	float: left;
+	background-color: #F0E68C;
+	width: 180px;
+}
+.bold {
+	margin-left: 10px;
+	font-weight: bold;
+}
+.football {
+	padding-left: 195px;
+	background: url(img/bol.gif) repeat-y top right;
+	padding-bottom: 20px;
+	margin-bottom: -10000px;
+	padding-bottom: 10000px;
+}
+.foot {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0;
+	padding-top: 10px;
+}
+img {
+	float: left;
+	margin-right: 15px;
+}
+.footer {
+	clear: left;
+	height: 45px;
+	line-height: 45px;
+	background-color:  #ADD8E6;
+	text-align: center;
+	margin-top: 0;
+}
+.logo {
+	text-transform: uppercase;
+	color: blue;
+	margin-top: 0px;
+}
+
+.club {
+	position: fixed;
+	top: 20px;
+	right: 10px;	
+	padding: 6px 10px;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid green;
+	color: blue;
+	background-color: #90ee90;
+}

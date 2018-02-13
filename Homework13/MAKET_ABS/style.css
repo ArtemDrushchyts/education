@@ -1,0 +1,40 @@
+.image {
+	position: absolute;
+	left: calc(50% - 200px);
+	width: 400px;
+	height: 400px;
+	text-align: center;
+}
+.bio	{
+	position: absolute;
+	left: 0;
+	z-index: 4;
+}
+.mw {
+	position: absolute;
+	left: 200px;
+	top:-20px;
+	z-index: 4;
+}
+.yy {
+	position: absolute;
+	left: 100px;
+	top: 190px;
+	z-index: 4;
+}
+.nosmok	{
+	position: absolute;
+	left: 70px;
+	top: 40px;
+	z-index: 5;
+}
+
+.bio:hover {
+	z-index: 7;
+}
+.mw:hover {
+	z-index: 7;
+}
+.yy:hover {
+	z-index: 7;
+}
