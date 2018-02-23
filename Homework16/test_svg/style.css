@@ -1,0 +1,19 @@
+polygon:hover {
+	fill: red;
+	stroke-width: 8px;
+}
+#home:hover {
+	transform: scale(2);
+	transform-origin: 240px 220px;
+	transition: 2s;
+}
+.text:hover {
+	font-size: 30;
+	fill: yellow;
+}
+
+rect:hover {
+	stroke: pink;
+	fill: #ecf24b;
+	height: 45px;
+}
