@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var massiv = [1,2,3,4,5];
+		var res = [];
+		for ( var i=massiv.length; i>0; i--) {
+			if (i>3) {
+				res.unshift(i);
+			}
+			if (i<3)  {
+
+				res.splice(3,0,i);
+			}	
+			if (i==3){
+				res.splice(2,0,"3")
+			}
+		}
+			alert(res);
+	</script>
+</body>
+</html>
