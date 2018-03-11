@@ -10,7 +10,6 @@ h1, h2, h3, h4, h5, h6
 {
     font-family: 'Roboto Slab', serif;
 }
-
 h1, h2, h3, h4, h5, h6
 {
     margin-bottom: 1.1em;
@@ -24,7 +23,7 @@ h1, h2, h3, h4, h5, h6
 	margin-right: 25px;
 }
 .block1 {
-	height: 100vh;
+	height: 100%;
 }
 .overlay h1 {
     text-align:center;
@@ -34,7 +33,6 @@ h1, h2, h3, h4, h5, h6
 }
 .header-button-block {
 	text-align: center;
-
 }
 .header-button {
 	display: inline-block;
@@ -54,16 +52,13 @@ h1, h2, h3, h4, h5, h6
 	color: #ffffff;
 	text-decoration: none;
 }
-
-
 .fullscreen-bg {
     overflow: hidden;
     position: relative;
-    height: 100%;
+    
     width: 100%;
     padding-top:45%;
 }
- 
 .fullscreen-bg__video {
     position: absolute;
     top: 0;
@@ -71,7 +66,6 @@ h1, h2, h3, h4, h5, h6
     width: 100%;
     z-index: -200;
 }
-
 .overlay {
     background: rgba(0,0,0,0.6);
     position: absolute;
@@ -106,7 +100,7 @@ h1, h2, h3, h4, h5, h6
 	background: white;
 }
 .block2 .container-fluid {
-	background-image: url('../img/slide-1.jpg');
+	background-image: url('../img/block2/slide-1.jpg');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -134,7 +128,6 @@ h1, h2, h3, h4, h5, h6
 	font-size: 25px;
 	color: #fff;
 }
-
 .block3-title {
 	font-size: 35px;
 	font-weight: 700;
@@ -160,15 +153,6 @@ h1, h2, h3, h4, h5, h6
 	padding-bottom: 80px;
 	background: #F8F8F8;
 }
-
-.carousel {
-  height: 600px !important;
-  overflow: hidden;
-}
-.carousel-inner {
-  overflow: visible;
-}
-
 .block-4 {
 	padding-top: 60px ;
 	background-color: white !important;
@@ -187,33 +171,21 @@ h1, h2, h3, h4, h5, h6
 	text-align: center;
 
 }
-
-
-
-
-
-
-
-
-
-
 .okno {
 	height: 500px;
 	background: transparent;
 }
 .fixedfon {
-	background: #555 url(../img/pr3.jpg) center top no-repeat;
+	background: #555 url(../img/setwalls.ru-14288.jpg) center top no-repeat;
 	height: 100%;
 	position: fixed;
 	width: 100%;
 	top: 0;
 	z-index: -201;
 }
-
 .block-4 {
 	background: #E5BCBC;
 }
-
 .form-bg {
 	background-image: url('../img/subscribe-block-bg.jpg');
 	background-repeat: no-repeat;
@@ -233,7 +205,6 @@ h1, h2, h3, h4, h5, h6
 	font-weight: 500px;
 	line-height: 1.2;
 	margin-top: 90px;
-
 }
 .form p {
 	font-size: 22px;
@@ -268,7 +239,6 @@ h1, h2, h3, h4, h5, h6
 	transform: scale(1.1);
 	transition: 1s;
 }
-
 .footer {
 	background-color: #373842;
 }
@@ -288,7 +258,6 @@ h1, h2, h3, h4, h5, h6
 .footer-menu a:hover{
 	color: black;
 	text-decoration: none;
-
 }
 .footer-list {
 	list-style-type: none;
