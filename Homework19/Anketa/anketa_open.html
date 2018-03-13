@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,4 +25,32 @@
 		alert("Ваше ФИО: " + surname + " "+ name + " "+ patronymic+"\n" +"Ваш возраст в годах: " + age + "\n" + "Ваш возраст в днях: "+ age_day + "\n" + "Через 5 лет вам будет: "+ age_later + "\n" +"Ваш пол: " + " "+ pol +"\n" + "Вы на пенсии: "+ " " + pension + "\n");
 	</script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ANKETA</title>
+</head>
+<body>
+	<script>
+		var surname = prompt("Ваша фамилия");
+		var name = prompt("Ваша имя");
+		var patronymic = prompt("Ваша отчество");
+		var age = prompt("Ваш возраст");
+		var sex = confirm("Ваш пол - мужской?");
+
+		age = parseInt(age);
+		
+		var age_day = age*365;
+		var age_later = age+5;
+		var pensioner = age;
+
+		var pension=(pensioner >= 65)?'да':'нет';
+		var pol=(sex==true)?'мужской':'женский';
+
+		alert("Ваше ФИО: " + surname + " "+ name + " "+ patronymic+"\n" +"Ваш возраст в годах: " + age + "\n" + "Ваш возраст в днях: "+ age_day + "\n" + "Через 5 лет вам будет: "+ age_later + "\n" +"Ваш пол: " + " "+ pol +"\n" + "Вы на пенсии: "+ " " + pension + "\n");
+	</script>
+</body>
+>>>>>>> 328077e2b3939ea6fbfef39d2b0551a59780a841
 </html>
