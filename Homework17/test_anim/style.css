@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @keyframes anim1
 {
 	from {
@@ -107,4 +108,115 @@ img {
 }
 .block:hover img {
 	animation: anim4 4s infinite ;
+=======
+@keyframes anim1
+{
+	from {
+		background-color: darksalmon;
+		color: brown;
+		border: 3px solid tomato;
+	}
+	to {
+		background-color: indigo;
+		color: skyblue;
+		border: 3px solid lightcoral;
+	}
+}
+.block1 {
+	text-align: center;
+	font-size: 20px;
+	width: 200px;
+	border-radius: 10px;
+	animation: anim1 5s infinite;
+}
+@keyframes anim2 {
+	from {
+		background-color: cyan;
+		color: white;
+	}
+	50% {
+		background-color: red;
+		color: black;
+	}
+	to {
+		background-color: green;
+		color: yellow;
+	}
+}
+.block2 {
+	padding: 10px;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	width: 200px;
+	border-radius: 10px;
+	background-color: violet;
+	color: red;
+}
+@keyframes anim3 {
+	0% {
+		left:30px;
+		background: red;
+		color: white;
+	}
+	50% {
+		left: 800px;
+		background: yellow;
+	}
+	100% {
+		left: 30px;
+		background: red;
+		color: white;
+	}
+}
+.block3 {
+	position: absolute;
+	padding: 10px;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	width: 200px;
+	border-radius: 10px;
+	background-color: violet;
+	color: red;
+}
+
+.block:hover .block2 {
+	animation: anim2 5s infinite;
+}
+
+
+.block:hover .block3 {
+	animation: anim3 5s infinite alternate;
+}
+@keyframes anim4 {
+	0% {
+		right: 30px;
+		top: 30px;
+	}
+	40% {
+		right: 30px;
+		top: 300px;
+		transform: scale(1.4);
+	}
+	75% {
+		right: 500px;
+		top: 200px;
+		transform: scale(1.8);
+	}
+	100% {
+		right: 30px;
+		top: 30px;
+		transform: scale(1);
+	}
+}
+img {
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	width: 150px;
+}
+.block:hover img {
+	animation: anim4 4s infinite ;
+>>>>>>> 2e5cdbf47fa5be09f3c9063950c08cdb517b15eb
 }
